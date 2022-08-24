@@ -1,0 +1,1 @@
+# tsx-webpack-terser-issue
