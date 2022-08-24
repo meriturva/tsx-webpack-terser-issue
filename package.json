@@ -1,0 +1,22 @@
+{
+    "name": "tsx-test",
+    "scripts": {
+        "works": "ts-node ./tasks/build_scss.ts",
+        "issue": "tsx ./tasks/build_scss.ts"
+    },
+    "private": true,
+    "dependencies": {},
+    "devDependencies": {
+        "webpack": "5.74.0",
+        "sass": "1.54.5",
+        "css-loader": "6.7.1",
+        "sass-loader": "13.0.2",
+        "ts-node": "10.9.1",
+        "tsx": "3.8.2",
+        "typescript": "4.7.4"
+    },
+    "engines": {
+        "node": ">=16.14.2",
+        "npm": ">=8.1.2"
+    }
+}
